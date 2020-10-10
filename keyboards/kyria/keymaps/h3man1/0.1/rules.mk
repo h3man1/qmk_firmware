@@ -1,0 +1,29 @@
+OLED_DRIVER_ENABLE = yes   # Enables the use of OLED displays
+ENCODER_ENABLE = no       # ENables the use of one or more encoders
+RGBLIGHT_ENABLE = yes      # Enable keyboard RGB underglow
+WPM_ENABLE = yes           # Enable WPM functions
+RGBLIGHT_ANIMATIONS = yes
+
+
+MOUSEKEY_ENABLE = yes
+AUDIO_ENABLE   = no
+CONSOLE_ENABLE = no          //if yes uncomment part in keymap.c
+EXTRAFLAGS+=-flto
+LINK_TIME_OPTIMIZATION_ENABLE = yes
+SPACE_CADET_ENABLE=no 
+UNICODE_ENABLE = no
+COMMAND_ENABLE   = no
+SWAP_HANDS_ENABLE= no
+BOOTMAGIC_ENABLE = no
+EXTRAKEY_ENABLE = yes
+NKRO_ENABLE = no 
+MIDI_ENABLE = no 
+BLUETOOTH_ENABLE = no
+AUDIO_ENABLE = no  
+FAUXCLICKY_ENABLE = no 
+TAP_DANCE_ENABLE = no
+STENO_ENABLE = no
+TERMINAL_ENABLE = no
+MAGIC_ENABLE = no
+KEY_LOCK_ENABLE = no
+VELOCIKEY_ENABLE = no
